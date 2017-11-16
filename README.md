@@ -19,3 +19,6 @@ Golang program to get the Putty's sessions from the registry
 
 ## [list_directory_files.go](https://github.com/flaith-nycd/learning-golang/blob/master/list_directory_files.go)
 List all of the files from our current directory
+
+## [command_exec.go](https://github.com/flaith-nycd/learning-golang/blob/master/command_exec.go)
+Use shell command inside Go
