@@ -1,5 +1,5 @@
 /**
- * Golang program to get the Putty's sessions in the registry
+ * Golang program to get the Putty's sessions from the registry
  */
 
 package main
