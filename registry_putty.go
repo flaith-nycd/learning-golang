@@ -58,7 +58,9 @@ func main() {
         // for index, value in range(value)
         // We can jump 'index' or 'value' by using '_'
         for _, session := range sessions {
+            // Replace in the string '%20' by a 'space', -1 to avoid a limit on the number of replacements
             session = strings.Replace(session, "%20", " ", -1)
+            // And print Putty's sessions
             fmt.Println("-", session)
         }
     } else {
