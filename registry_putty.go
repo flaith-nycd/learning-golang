@@ -1,3 +1,7 @@
+/**
+ * Golang program to get the Putty's sessions in the registry
+ */
+
 package main
 
 import (
@@ -9,7 +13,6 @@ import (
 )
 
 func main() {
-    //key, err := registry.OpenKey(registry.CURRENT_USER, "Software\\SimonTatham\\PuTTY\\Sessions", registry.QUERY_VALUE)
     //key, err := registry.OpenKey(registry.CURRENT_USER, `Software\SimonTatham\PuTTY\Sessions`, registry.QUERY_VALUE)
 
     /********************************
@@ -34,15 +37,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
-    /*
-    // Use '_' if we don't need the value after
-    // but function stat() returns 2 values,
-    // so it's mandatory to have 2 variables to get the returned values
-    if _, err = key.Stat(); err != nil {
-        log.Fatal(err)
-    }
-    */
 
     // convert to int to remove error "cannot use count (type uint32) as type int in argument to key.ReadSubKeyNames"
     // count has not be declared, so we use :=
