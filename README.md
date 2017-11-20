@@ -22,3 +22,6 @@ List all of the files from our current directory
 
 ## [command_exec.go](https://github.com/flaith-nycd/learning-golang/blob/master/command_exec.go)
 Use shell command inside Go
+
+## [fizzbuzz.go](https://github.com/flaith-nycd/learning-golang/blob/master/fizzbuzz.go)
+fizzbuzz in 2 differents ways (one close to the fizzbuzz I made with Python)
